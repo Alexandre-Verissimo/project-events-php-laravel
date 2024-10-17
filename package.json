@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite --config vite.config.mjs",
+        "build": "vite build --config vite.config.mjs",
+        "type": "module",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.0",
+        "alpinejs": "^3.0.6",
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.0"
+    },
+    "dependencies": {
+        "laravel-vite-plugin": "^1.0.5",
+        "vite": "^5.4.8"
+    }
+}
